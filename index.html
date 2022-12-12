@@ -12,29 +12,32 @@
 </head>
 
 <body>
-<div class="offcanvas offcanvas-bottom" tabindex="-1" id="offcanvasBottom" aria-labelledby="offcanvasBottomLabel">
-  <div class="offcanvas-header">
-    <h5 class="offcanvas-title" id="offcanvasBottomLabel">Thank you for your Buy</h5>
-    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  <div class="offcanvas offcanvas-bottom" style="height: 500px;" tabindex="-1" id="offcanvasBottom" aria-labelledby="offcanvasBottomLabel">
+    <div class="offcanvas-header">
+      <h5 class="offcanvas-title" id="offcanvasBottomLabel">Thank you for your Buy</h5>
+      <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+    <div class="offcanvas-body small">
+      <p>Sizdan jami: <span class="all2">0</span>$</p><br>
+      <p>Lekin sayt soxta</p>
+      <div class="offcanvas-box" style="display: flex; justify-content: space-around;align-items: flex-start;">
+      </div>
+    </div>
+
   </div>
-  <div class="offcanvas-body small">
-    <p>Sizdan jami: <span class="all2">0</span>$</p><br>
-    <p>Lekin sayt soxta</p>
-  </div>
-</div>
-  <div class="container" style="display: flex; justify-content: space-between;align-items: center; flex-direction: column;">
+  <div class="container"
+    style="display: flex; justify-content: space-between;align-items: center; flex-direction: column;">
     <div class="list-top">
       <div id="one" class="card mb-3" style="margin-top: 20px; ">
         <div class="row g-0">
           <div class="col-md-4">
-            <img src="./img/banan.jpg" class="img-fluid rounded-start" alt="img">
+            <img src="./img/banan.jpg" class="img img-fluid rounded-start" alt="img">
           </div>
           <div class="col-md-8">
             <div class="card-body">
               <h5 class="card-title">Banana</h5>
               <p class="card-text">Pakistan BananZo'r</p>
               <p class="card-text">1kg <small class="text-muted">10</small>$</p>
-
             </div>
           </div>
           <div style="display: flex; justify-content: center;align-items: center;">
@@ -44,48 +47,41 @@
             <p style="margin-left: 10px;">All: <span class="span">0</span>$</p>
             <button id="1" type=" button" class="btn btn-outline-success btn_my"
               style="margin-left: 15px; margin-bottom: 13px;">Buy</button>
-
-
           </div>
         </div>
-
       </div>
       <div id="two" class="card mb-3">
         <div class="row g-0">
           <div class="col-md-4">
-            <img src="./img/apple.jpg" class="img-fluid rounded-start" alt="img">
+            <img src="./img/apple.jpg" class="img img-fluid rounded-start" alt="img">
           </div>
           <div class="col-md-8">
             <div class="card-body">
               <h5 class="card-title">Apple</h5>
               <p class="card-text">Red Apple</p>
               <p class="card-text">1kg <small class="text-muted">5</small>$</p>
-
             </div>
           </div>
           <div style="display: flex; justify-content: center;align-items: center;">
             <button style="border: none; margin-bottom: 17px;" type="button" id="2" class="btnMinus">-</button>
             <p class="count">0</p>
             <button id="2" style="border: none; margin-bottom: 17px;" type="button" class="btnPlus">+</button>
-
             <p style="margin-left: 10px;">All: <span class="span">0</span>$</p>
             <button id="2" type="button" class="btn btn-outline-success btn_my"
               style="margin-left: 15px; margin-bottom: 13px;">Buy</button>
-
           </div>
         </div>
       </div>
       <div id="three" class="card mb-3">
         <div class="row g-0">
           <div class="col-md-4">
-            <img src="./img/apricot.webp" class="img-fluid rounded-start" alt="img">
+            <img src="./img/apricot.webp" class="img img-fluid rounded-start" alt="img">
           </div>
           <div class="col-md-8">
             <div class="card-body">
               <h5 class="card-title">Apricot</h5>
               <p class="card-text">Best Apricot/Uzbekistan</p>
               <p class="card-text">1kg <small class="text-muted">3</small>$</p>
-
             </div>
           </div>
           <div style="display: flex; justify-content: center;align-items: center;">
@@ -95,22 +91,19 @@
             <p style="margin-left: 10px;">All: <span class="span">0</span>$</p>
             <button id="3" type="button" class="btn btn-outline-success btn_my"
               style="margin-left: 15px; margin-bottom: 13px;">Buy</button>
-
-
           </div>
         </div>
       </div>
       <div id="four" class="card mb-3">
         <div class="row g-0">
           <div class="col-md-4">
-            <img src="./img/strawberrry.jpg" class="img-fluid rounded-start" alt="img">
+            <img src="./img/strawberrry.jpg" class="img img-fluid rounded-start" alt="img">
           </div>
           <div class="col-md-8">
             <div class="card-body">
               <h5 class="card-title">Strawberry</h5>
               <p class="card-text">Strawberry/Samarqand</p>
               <p class="card-text">1kg <small class="text-muted">2</small>$</p>
-
             </div>
           </div>
           <div style="display: flex; justify-content: center;align-items: center;">
@@ -120,21 +113,17 @@
             <p style="margin-left: 10px;">All: <span class="span">0</span>$</p>
             <button id="4" type="button" class="btn btn-outline-success btn_my"
               style="margin-left: 15px; margin-bottom: 13px;">Buy</button>
-
-
           </div>
         </div>
       </div>
     </div>
     <div></div>
-
     <div style="position: fixed; right: 20px; top: 50%;" class="list-right">
       <p style="padding: 10px;background-color: aqua; border-radius: 7px;">All: <span class="all">0</span>$</p>
-      <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasBottom" aria-controls="offcanvasBottom">Buy All</button>
-    </div> 
+      <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasBottom"
+        aria-controls="offcanvasBottom">Buy All</button>
+    </div>
   </div>
-
-
   <script src="./js/main.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
